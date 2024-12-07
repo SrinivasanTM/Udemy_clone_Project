@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s1__title {
+    color: #A435F0;
+}
+
+.navbar__s2 {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 50%;
+    padding: 10px;
+    display:flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+
+i{
+    cursor: pointer;
+}
+
+.navbar__s3{
+display: flex;
+column-gap: 10px;
+align-items: center;
+
+}
+
+.categories{
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+    border-bottom: 1px solid black;
+}
+.categories__title{
+    background-color: #A435F0;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.sale img{
+    width: 100%;
+}
+.course-card__one{
+    width: 250px;
+}
+.course-card__one img{
+    width: 100%;
+    height: 50%;
+}
+.course-card{
+    display: flex;
+    justify-content: space-evenly;
+   margin-top :20px;
+   cursor: pointer;
+   flex-wrap: wrap;
+}
+
+.dash{
+    text-decoration: line-through;
+}
+.recommented, .topics{
+    padding: 10px;
+}
+.topics__section{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    
+    
+    
+    
+}
+.topics__section p{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    border: 1px solid gray;
+    text-align: center;
+    
+}
+.popular{
+    padding: 10px;
+}
+
+.popular .course-card .course-card__one{
+    flex-grow: 1;
+    flex-basis: 22%;
+}
+.popular .course-card{
+    justify-content: space-between;
+    gap: 10px;
+}
+.footer{
+    background-color: black;
+    padding: 10px;
+}
+.footer__section{
+   display: contents;
+}
+.footer__section__s1 a, .footer__section__s2 a{
+    color: white;
+    cursor: pointer;
+    display: inline;
+}
+.footer__section__two h2 a{
+    color: white;
+}
+.footer__section {
+    display: flex;
+    gap: 10px;
+
+}
+.footer__section__s1,.footer__section__s2 {
+    display: grid;
+
+}
