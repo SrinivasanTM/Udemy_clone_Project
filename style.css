@@ -145,20 +145,23 @@ i {
 }
 
 .course-card__one {
-    width: 250px;
+    flex-grow: 1;
+    flex-basis: 22%;
 }
 
 .course-card__one img {
     width: 100%;
-    height: 50%;
+    height: 200px;
+   
 }
 
 .course-card {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
+    justify-content: space-between;
+    margin: 20px;
     cursor: pointer;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .dash {
@@ -258,4 +261,17 @@ i {
 
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (max-width:800px){
+    body{
+        font-size: 10px;
+    }
+    .course-card__one,.popular .course-card .course-card__one{
+        flex-grow: 1;
+        flex-basis: 40%;
+    }
+    .categories, .navbar__s2,.navbar__s3{
+        display: none;
+    }
 }
